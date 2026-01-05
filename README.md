@@ -2,7 +2,7 @@
 
 > “Engineering the sky—from concept to cloud, deployment to delivery.”
 
-Hey there! I’m **Maria Arpitha**, a Cloud Infrastructure Engineer with over **3 years of experience** architecting, automating, and optimizing cloud-native environments. Whether it's writing clean infrastructure as code, designing scalable architectures, or coaching others through the cloud journey—I turn complex challenges into elegant solutions.
+Hey there! I’m **Maria Arpitha**, a Cloud Infrastructure Engineer with over **4 years of experience** architecting, automating, and optimizing cloud-native environments. Whether it's writing clean infrastructure as code, designing scalable architectures, or coaching others through the cloud journey—I turn complex challenges into elegant solutions.
 
 ---
 
@@ -37,20 +37,29 @@ Hey there! I’m **Maria Arpitha**, a Cloud Infrastructure Engineer with over **
 - 🌀 **CI/CD Pipelines**: Jenkins, AWS CodeDeploy  
 - 🛡️ **Security & Governance**: IAM, Shared Responsibility Model  
 - 📈 **Monitoring & Logging**: Amazon CloudWatch  
-- 🧰 **Developer Tools**: Git, GitHub, JIRA  
+- 🧰 **Developer Tools**: Git, GitHub
 
 ---
 
 ## 💼 Career Journey
 
-### 👩‍💻 Excelsoft Technologies — Mysore  
+### 👩‍💻 Excelsoft Technologies — Mysore, India
 **Cloud Infrastructure Engineer** *(Jul 2021 – Feb 2023)*  
 - Engineered scalable cloud infrastructure for exam platforms  
 - Automated deployments via Terraform and improved uptime  
 - Optimized resource usage and performance metrics  
 - Troubleshot cross-stack integration and security issues
 
-### 🎓 IIHT — Bangalore  
+### 🎓 IIHT — Bangalore, India 
 **AWS Cloud Trainer** *(Mar 2020 – May 2021)*  
-- Led AWS learning programs for aspiring cloud engineers  
-- Developed
+- Led AWS learning programs for aspiring cloud interns 
+- Created labs, guides, small project demo and quizzes to accelerate onboarding for new engineers
+
+### 💻  KGISL - Bangalore, India
+**Junior Associate (Tech Support)** *(Jun 2017 – Feb 2020)* 
+- Delivered end-to-end customer support for US-based clients through high-volume inbound and outbound calls, resolving service requests with clarity, empathy, and professionalism
+
+## 🎓 Education
+
+### 📚 JSS Academy of Technical Education (JSSATE) — Bangalore, India
+**Bachelors in Information Science & Engineering** *(2017)* 
