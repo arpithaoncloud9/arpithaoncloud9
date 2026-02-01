@@ -10,6 +10,9 @@ Hey there! I’m **Maria Arpitha**, a Cloud Infrastructure Engineer with over **
 
 <div align="center">
 
+<a href="https://www.credly.com/earner/earned/badge/5463f0d0-a9b4-4dd8-a682-ce1365cfd338">
+  <img src="images/aws-certified-cloudops-engineer-associate.png" alt="AWS Certified CloudOps Engineer Associate" width="102" height="102">
+</a>
 <a href="https://www.credly.com/badges/6e46f52f-87f2-4987-83c7-35d9976c3406/public_url">
   <img src="images/aws-certified-ai-practitioner.png" alt="AWS Certified AI Practitioner" width="102" height="102">
 </a>
