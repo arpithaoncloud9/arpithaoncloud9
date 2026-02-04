@@ -1,4 +1,4 @@
-# ☁️ Maria Arpitha | Cloud Infrastructure Engineer
+# ☁️ Maria Arpitha | Cloud and DevOps Engineer
 
 > “Engineering the sky—from concept to cloud, deployment to delivery.”
 
