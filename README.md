@@ -50,6 +50,7 @@ Hey there! I’m **Maria Arpitha**, a Cloud Infrastructure Engineer with over **
 ### 👩‍💻 PROFESSIONAL DEVELOPMENT (2023 – current) – U.S.
 **Cloud and DevOps Engineer (Independent Projects & Certifications)**
 
+- AWS Serverless CRUD API Project — Built a fully serverless REST API using AWS Lambda, API Gateway, and DynamoDB to support complete CRUD operations. Implemented secure IAM roles, structured data models, and validated all endpoints using Postman and DynamoDB results.
 - 3‑Tier AWS Project —  Architected and implemented a production‑style AWS 3‑tier environment using Terraform (VPC, ALB, EC2, RDS) with secure private‑subnet application hosting via SSM and PM2 and Automated zero‑touch deployments using GitHub Actions, S3, and SSM.
 - Serverless Password Rotation — Developed an automated password-rotation system using AWS Lambda, Secrets Manager, and EventBridge. Implemented secure, KMS-encrypted secret rotation with least-privilege IAM and validated scheduled end-to-end execution.
 - Automated CI/CD Pipeline — Built a fully automated CI/CD pipeline using GitHub Actions and AWS EC2, with CI handling tests, builds, and artifact packaging. Implemented zero-touch deployments to EC2 for consistent, repeatable, production-ready releases.
