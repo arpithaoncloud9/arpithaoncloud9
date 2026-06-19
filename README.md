@@ -52,36 +52,38 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 
 ---
 
-## 📈 Career Journey
+## 📈 Career Development
 
-### 👩‍💻 PROFESSIONAL JOURNEY & CAREER DEVELOPMENT (2023 – current) · U.S.
-#### Cloud and DevOps Engineer (Self-Directed Cloud Engineering)
+### Cloud and DevOps Projects | Self-Directed | U.S. | Mar 2023 – Present
 
 - Following relocation to the US, dedicated this period to earning 6 cloud certifications across AWS, GCP, and Azure — and building 6 production-equivalent projects to stay technically current and US market-ready. Fully authorized to work in the US (H4 EAD — no sponsorship required).
 
-##### **AWS 3-Tier Architecture with Terraform**
-- Production-equivalent 3-tier AWS environment (VPC, ALB, ASG, EC2, RDS) across 2 AZs — fully automated with Terraform, zero SSH exposure via SSM only.
-- GitHub Actions CI/CD pipeline for automated build, test, and deployment — infrastructure changes versioned and auditable end-to-end.
+1. #### **AWS 3-Tier Production Project — EKS Migration Terraform · Docker · GitHub Actions · Kubernetes · CloudWatch**
+- Provisioned complete 3-tier AWS architecture with Terraform — VPC, ALB, EKS, RDS MySQL, IAM across us-east-1a and us-east-1b — zero manual steps
+- Built end-to-end GitHub Actions CI/CD pipeline — terraform plan on PR, apply on merge, Docker build, ECR push, kubectl rollout in one automated workflow
+- Containerized Node.js application with Docker and pushed to ECR using IAM role authentication — no stored credentials
+- Migrated compute layer from EC2/ASG to EKS — Deployment, Service, HPA (2→6 pods at 70% CPU), Kubernetes Secret for secure DB credential injection
+- Implemented full CloudWatch observability — alarms, log streams, SNS alerting, custom metrics (RequestCount, Latency, ErrorCount) via AWS SDK
+- Reduced deployment time from 5-10 minutes (ASG refresh) to ~30 seconds (kubectl rollout) with zero downtime
 
-##### **End-to-End DevOps Pipeline — Full-Stack Application**
-- Full DevOps lifecycle: provisioned AWS infrastructure (VPC, EC2, ALB, RDS) via AWS CLI, containerized a Java app with Docker, deployed via automated Jenkins pipelines.
-- Every GitHub commit triggers automated build, Docker image push to DockerHub, and zero-touch EC2 deployment.
+2. #### **End-to-End DevOps Pipeline — Jenkins · Docker · AWS**
+- Provisioned AWS infrastructure (VPC, EC2, ALB, RDS) via AWS CLI and containerized a Java application with Docker
+- Built Jenkins CI/CD pipeline with GitHub webhook triggers — every commit automatically builds, pushes Docker image to DockerHub, and deploys to EC2 with zero manual steps
 
-##### **End-to-End Infrastructure Automation — Terraform + GitHub Actions**
-- One pipeline to provision, configure, and deploy — Terraform handles IaC, GitHub Actions orchestrates the full workflow.
-- Zero manual steps from commit to live infrastructure — mirrors how mature DevOps teams operate at scale.
-
-##### **Static Website Hosting — S3 + CloudFront + Route 53 + ACM**
-- Production-grade static site — private S3 bucket served securely via CloudFront with Origin Access Control (OAC), never publicly exposed.
-- End-to-end HTTPS with ACM SSL, Route 53 DNS, custom domain mapped and validated.
+3. #### **Secure Static Website — S3 · CloudFront · ACM · Route 53**
+- Hosted static website on private S3 bucket with CloudFront Origin Access Control (OAC) for secure content delivery
+- Configured ACM SSL certificate and Route 53 for custom domain with HTTPS — no direct S3 public access
   
-##### **Serverless Password Rotation — Lambda + Secrets Manager + EventBridge**
-- Automated credential lifecycle — Python Lambda generates and rotates secrets on EventBridge cron schedule, fully hands-off post-deployment.
-- Least-privilege IAM enforced (SecretsManagerReadWrite, kms:Decrypt) — KMS-encrypted, zero standing access.
+4. #### **Serverless Credential Rotation — Lambda · Secrets Manager · EventBridge**
+- Built serverless automation to rotate credentials in Secrets Manager using Lambda triggered by EventBridge on a schedule
+- Applied least-privilege IAM policies — zero standing access to secrets
 
+---
 
-### 🏢 Excelsoft Technologies — Mysore, India
-#### Configuration Managemnt Engineer (Cloud Infrastructure and DevOps) · Jul 2021 – Feb 2023  
+## 👩‍💻 Professionl Experience
+
+### Configuration Managemnt Engineer (Cloud Infrastructure and DevOps) 
+#### 🏢 Excelsoft Technologies · Mysore, India · Jul 2021 – Feb 2023  
 - Provisioned and managed production AWS infrastructure (EC2, ALB, ASG, VPC, RDS, S3, Lambda, CloudWatch) using Terraform and AWS CLI.
 - Built and maintained Jenkins CI/CD pipelines for automated application deployments — reducing manual release effort significantly.
 - Implemented Ansible-based configuration management for automated deployments and system updates across environments.
@@ -90,11 +92,10 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 - Created AMIs and golden images to standardize environments and accelerate disaster recovery.
 
 
-### 💻 IIHT — Bangalore, India 
-#### Cloud Infrastructure Trainee (AWS and DevOps) · Mar 2020 – May 2021
-- Delivered training sessions on AWS core services (EC2, S3, IAM, VPC, RDS, CloudWatch) and cloud security fundamentals including the Shared Responsibility Model.
-- Developed hands-on labs, guides, and assessments — accelerating onboarding for new engineering trainees.
-- Provisioned EC2 instances, configured IAM roles and policies, and set up CloudWatch monitoring on live internal projects.
+### Cloud Infrastructure Trainee (AWS and DevOps) 
+### 💻 IIHT · Bangalore, India · Mar 2020 – May 2021
+- Trained junior engineers on AWS cloud fundamentals through structured hands-on labs covering EC2, S3, IAM, VPC, and RDS
+- Supported development and maintenance of an internal web application, gaining practical exposure to real-world deployment workflows
 - Gained foundational exposure to Terraform, Jenkins, Docker, and GitHub — forming the technical base for subsequent production roles.
   
 
