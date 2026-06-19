@@ -1,4 +1,4 @@
-# ☁️ Maria Arpitha | Cloud and DevOps Engineer
+## ☁️ Maria Arpitha Sagayam | Cloud and DevOps Engineer
 
 > “Engineering the sky—from concept to cloud, deployment to delivery.”
 
@@ -54,37 +54,34 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 
 ## 📈 Career Journey
 
-### 👩‍💻 PROFESSIONAL JOURNEY & CAREER DEVELOPMENT (2023 – current) – U.S.
-**Cloud and DevOps Engineer (Self-Directed Cloud Engineering)**
+### 👩‍💻 PROFESSIONAL JOURNEY & CAREER DEVELOPMENT (2023 – current) · U.S.
+#### Cloud and DevOps Engineer (Self-Directed Cloud Engineering)
 
 - Following relocation to the US, dedicated this period to earning 6 cloud certifications across AWS, GCP, and Azure — and building 6 production-equivalent projects to stay technically current and US market-ready. Fully authorized to work in the US (H4 EAD — no sponsorship required).
 
-**AWS 3-Tier Architecture with Terraform**
+##### **AWS 3-Tier Architecture with Terraform**
 - Production-equivalent 3-tier AWS environment (VPC, ALB, ASG, EC2, RDS) across 2 AZs — fully automated with Terraform, zero SSH exposure via SSM only.
 - GitHub Actions CI/CD pipeline for automated build, test, and deployment — infrastructure changes versioned and auditable end-to-end.
 
-**End-to-End DevOps Pipeline — Full-Stack Application**
+##### **End-to-End DevOps Pipeline — Full-Stack Application**
 - Full DevOps lifecycle: provisioned AWS infrastructure (VPC, EC2, ALB, RDS) via AWS CLI, containerized a Java app with Docker, deployed via automated Jenkins pipelines.
 - Every GitHub commit triggers automated build, Docker image push to DockerHub, and zero-touch EC2 deployment.
 
-**End-to-End Infrastructure Automation — Terraform + GitHub Actions**
+##### **End-to-End Infrastructure Automation — Terraform + GitHub Actions**
 - One pipeline to provision, configure, and deploy — Terraform handles IaC, GitHub Actions orchestrates the full workflow.
 - Zero manual steps from commit to live infrastructure — mirrors how mature DevOps teams operate at scale.
 
-**Automated CI/CD Pipeline — GitHub Actions + AWS EC2**
-- End-to-end pipeline from code commit to deployed EC2 — CI runs tests, builds app, and packages artifacts; CD deploys automatically on success.
-- Zero manual deployment steps — production-ready releases verified live via PM2.
-
-**Serverless Password Rotation — Lambda + Secrets Manager + EventBridge**
+##### **Static Website Hosting — S3 + CloudFront + Route 53 + ACM**
+- Production-grade static site — private S3 bucket served securely via CloudFront with Origin Access Control (OAC), never publicly exposed.
+- End-to-end HTTPS with ACM SSL, Route 53 DNS, custom domain mapped and validated.
+  
+##### **Serverless Password Rotation — Lambda + Secrets Manager + EventBridge**
 - Automated credential lifecycle — Python Lambda generates and rotates secrets on EventBridge cron schedule, fully hands-off post-deployment.
 - Least-privilege IAM enforced (SecretsManagerReadWrite, kms:Decrypt) — KMS-encrypted, zero standing access.
 
-**Static Website Hosting — S3 + CloudFront + Route 53 + ACM**
-- Production-grade static site — private S3 bucket served securely via CloudFront with Origin Access Control (OAC), never publicly exposed.
-- End-to-end HTTPS with ACM SSL, Route 53 DNS, custom domain mapped and validated.
 
 ### 🏢 Excelsoft Technologies — Mysore, India
-**Configuration Managemnt Engineer** *(Jul 2021 – Feb 2023)*  
+#### Configuration Managemnt Engineer (Cloud Infrastructure and DevOps) · Jul 2021 – Feb 2023  
 - Provisioned and managed production AWS infrastructure (EC2, ALB, ASG, VPC, RDS, S3, Lambda, CloudWatch) using Terraform and AWS CLI.
 - Built and maintained Jenkins CI/CD pipelines for automated application deployments — reducing manual release effort significantly.
 - Implemented Ansible-based configuration management for automated deployments and system updates across environments.
@@ -92,18 +89,22 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 - Configured CloudWatch metrics, alarms, and log groups to improve infrastructure reliability and operational visibility.
 - Created AMIs and golden images to standardize environments and accelerate disaster recovery.
 
+
 ### 💻 IIHT — Bangalore, India 
-**Cloud Infrastructure Trainee** *(Mar 2020 – May 2021)*  
+#### Cloud Infrastructure Trainee (AWS and DevOps) · Mar 2020 – May 2021
 - Delivered training sessions on AWS core services (EC2, S3, IAM, VPC, RDS, CloudWatch) and cloud security fundamentals including the Shared Responsibility Model.
 - Developed hands-on labs, guides, and assessments — accelerating onboarding for new engineering trainees.
 - Provisioned EC2 instances, configured IAM roles and policies, and set up CloudWatch monitoring on live internal projects.
 - Gained foundational exposure to Terraform, Jenkins, Docker, and GitHub — forming the technical base for subsequent production roles.
   
+
 ### 📲 KGISL - Bangalore, India
-**Junior Associate (Customer Support)** *(Jun 2018 – Feb 2020)* 
+#### Junior Associate (Customer Support) · Jun 2018 – Feb 2020 
 - Delivered end-to-end customer support for US-based clients through high-volume inbound and outbound calls, resolving service requests with clarity, empathy, and professionalism
+
+---
 
 ## 🎓 Education
 
 ### JSS Academy of Technical Education (JSSATE) — Bangalore, India
-**Bachelors in Information Science & Engineering** *(2017)* 
+Bachelors of Engineering, Information Science & Engineering (ISE) · 2017
