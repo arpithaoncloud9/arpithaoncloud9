@@ -39,22 +39,22 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 
 ## 🛠️ Tech Toolbox
 
--  **Cloud Platforms**: AWS, GCP, Azure  
--  **Infrastructure as Code**: Terraform
--  **Configuration Mangament**:  Ansible
--  **CI/CD Pipelines**: Jenkins, GitHub Actions 
--  **Security & Governance**: IAM, Shared Responsibility Model  
--  **Monitoring & Logging**: Amazon CloudWatch, CloudTrail 
--  **Version Control Tools**: Git, GitHub
--  **Scripting**: Bash, YAML, JSON
--  **Operating Systems**: Linux, Windows
--  **AI Tools**: GitHub Copilot, Claude Code
+-  **Cloud Platforms**: AWS (Primary) · Azure · GCP  
+-  **IaC & Automation**: Terraform · Ansible
+-  **CI/CD Pipelines**: Jenkins · GitHub Actions
+-  **Containers & Orchestration**: Docker · Kubernetes · ECR · EKS
+-  **Security**: IAM · Secrets Manager · KMS · Security Groups  
+-  **Monitoring & Observability**: Amazon CloudWatch
+-  **Version Control Tools**: Git · GitHub
+-  **Scripting**: Bash
+-  **Operating Systems**: Linux · Windows
+-  **AI Tools**: GitHub Copilot · Claude Code
 
 ---
 
 ## 📈 Career Journey
 
-### 👩‍💻 PROFESSIONAL JOURNEY & CAREER DEVELOPMENT (2024 – current) – U.S.
+### 👩‍💻 PROFESSIONAL JOURNEY & CAREER DEVELOPMENT (2023 – current) – U.S.
 **Cloud and DevOps Engineer (Self-Directed Cloud Engineering)**
 
 - Following relocation to the US, dedicated this period to earning 6 cloud certifications across AWS, GCP, and Azure — and building 6 production-equivalent projects to stay technically current and US market-ready. Fully authorized to work in the US (H4 EAD — no sponsorship required).
