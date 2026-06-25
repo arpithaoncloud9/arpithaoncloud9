@@ -2,7 +2,7 @@
 
 > “Engineering the sky—from concept to cloud, deployment to delivery.”
 
-Hi, I'm Maria Arpitha — a Cloud & DevOps Engineer with 5+ years of AWS production experience, 6 cloud certifications and 6 hands-on projects built to production standards.
+Hi, I'm Maria Arpitha — a Cloud & DevOps Engineer with 4+ years of AWS production experience, 6 cloud certifications and 6 hands-on projects built to production standards.
 
 My background includes provisioning and managing AWS infrastructure using Terraform, building CI/CD pipelines with GitHub Actions and Jenkins, and designing secure multi-AZ architectures — gained through real production work at an EdTech SaaS company serving clients across the US, UK, and Southeast Asia.
 
@@ -46,7 +46,7 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 -  **Security**: IAM · Secrets Manager · KMS · Security Groups  
 -  **Monitoring & Observability**: Amazon CloudWatch
 -  **Version Control Tools**: Git · GitHub
--  **Scripting**: Bash
+-  **Scripting**: Bash · Pyhton
 -  **Operating Systems**: Linux · Windows
 -  **AI Tools**: GitHub Copilot · Claude Code
 
