@@ -14,14 +14,17 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 
 <div align="center">
 
+<a href="https://www.credly.com/badges/6e40efdf-e7b2-4748-8cb0-172590d205a9">
+  <img src="images/aws-certified-devops-engineer-professional.png" alt="AWS Certified DevOps Engineer Professional" width="102" height="102">
+</a>
+<a href="https://www.credly.com/badges/22f63035-f5af-4d21-834c-f07f9b9270f1/public_url">
+  <img src="images/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect Associate" width="102" height="102">
+</a>
 <a href="https://www.credly.com/earner/earned/badge/5463f0d0-a9b4-4dd8-a682-ce1365cfd338">
   <img src="images/aws-certified-cloudops-engineer-associate.png" alt="AWS Certified CloudOps Engineer Associate" width="102" height="102">
 </a>
 <a href="https://www.credly.com/badges/6e46f52f-87f2-4987-83c7-35d9976c3406/public_url">
   <img src="images/aws-certified-ai-practitioner.png" alt="AWS Certified AI Practitioner" width="102" height="102">
-</a>
-<a href="https://www.credly.com/badges/22f63035-f5af-4d21-834c-f07f9b9270f1/public_url">
-  <img src="images/aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect Associate" width="102" height="102">
 </a>
 <a href="https://www.credly.com/badges/78c4967e-c644-48ac-81f6-01bc9cdb4b47/public_url">
   <img src="images/cloud-digital-leader-certification.png" alt="GCP Cloud Digital Leader" width="102" height="102">
