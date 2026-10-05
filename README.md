@@ -96,7 +96,7 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 
 
 ### Cloud Infrastructure Trainee (AWS and DevOps) 
-### 💻 IIHT · Bangalore, India · Jan 2018 – June 2021
+#### 💻 IIHT · Bangalore, India · Jan 2018 – June 2021
 - Trained junior engineers on AWS cloud fundamentals through structured hands-on labs covering EC2, S3, IAM, VPC, and RDS
 - Supported development and maintenance of an internal web application, gaining practical exposure to real-world deployment workflows
 - Gained foundational exposure to Terraform, Jenkins, Docker, and GitHub — forming the technical base for subsequent production roles.
@@ -106,5 +106,5 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 
 ## 🎓 Education
 
-### JSS Academy of Technical Education (JSSATE) — Bangalore, India
+#### JSS Academy of Technical Education (JSSATE) — Bangalore, India
 Bachelors of Engineering, Information Science & Engineering (ISE) · 2017
