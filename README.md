@@ -1,12 +1,13 @@
-## ☁️ Maria Arpitha Sagayam | Cloud and DevOps Engineer
+## ☁️ Maria Arpitha Sagayam | Cloud Infrastructure Engineer 
 
 > “Engineering the sky—from concept to cloud, deployment to delivery.”
 
-Hi, I'm Maria Arpitha — a Cloud & DevOps Engineer with 5+ years of AWS production experience, 7 certifications and 6 hands-on projects built to production standards.
+Hi, I'm Maria Arpitha — a Cloud Engineer with 5+ years of AWS production experience, 7 certifications and hands-on projects built to production standards.
 
-My background includes provisioning and managing AWS infrastructure using Terraform, building CI/CD pipelines with GitHub Actions and Jenkins, and designing secure multi-AZ architectures — gained through real production work at an EdTech SaaS company serving clients across the US, UK, and Southeast Asia.
+My background includes provisioning, automating, and managing AWS infrastructure using Terraform, building CI/CD pipelines with GitHub Actions, and designing secure multi‑AZ architectures. I gained real production experience at a global EdTech SaaS company serving clients across the US, UK, and Southeast Asia, where I built AWS environments from scratch and supported mission‑critical workloads.
 
-Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to work in the US (H4 EAD, no sponsorship required).
+Based in Bristol, CT, I’m open to remote and hybrid roles.
+Fully authorized to work in the U.S. (H4 EAD — no sponsorship required).
 
 ---
 
@@ -43,68 +44,75 @@ Based in Bristol, CT — open to remote and hybrid roles. Fully authorized to wo
 ## 🛠️ Tech Toolbox
 
 -  **Cloud Platforms**: AWS (Primary) · Azure · GCP  
--  **IaC & Automation**: Terraform · Ansible
--  **CI/CD Pipelines**: Jenkins · GitHub Actions
--  **Containers & Orchestration**: Docker · Kubernetes · ECR · EKS
+-  **IaC & Automation**: Terraform
+-  **CI/CD Pipelines**: GitHub Actions
+-  **Containers & Orchestration**: Docker · Amazon ECS (Fargate) · Amazon EKS (Kubernetes)
 -  **Security**: IAM · Secrets Manager · KMS · Security Groups  
 -  **Monitoring & Observability**: Amazon CloudWatch
 -  **Version Control Tools**: Git · GitHub
 -  **Scripting**: Bash · Pyhton
 -  **Operating Systems**: Linux · Windows
 -  **AI Tools**: GitHub Copilot · Claude Code
-
+  
 ---
 
 ## 📈 Career Development
 
-### Cloud and DevOps Projects | Self-Directed | U.S. | Mar 2023 – Present
+### Hands-on Cloud Projects | Self-Directed | U.S. | Mar 2024 – Present
 
-- Following relocation to the US, dedicated this period to earning 6 cloud certifications across AWS, GCP, and Azure — and building 6 production-equivalent projects to stay technically current and US market-ready. Fully authorized to work in the US (H4 EAD — no sponsorship required).
+- Fully authorized to work in the U.S. (H4 EAD — no sponsorship required).
+Following relocation to the U.S., dedicated this period to earning 7 cloud certifications across AWS, GCP, and Azure, and building production‑equivalent cloud projects to stay technically current and market‑ready..
 
-1. #### **AWS 3-Tier Production Project — EKS Migration Terraform · Docker · GitHub Actions · Kubernetes · CloudWatch**
-- Provisioned complete 3-tier AWS architecture with Terraform — VPC, ALB, EKS, RDS MySQL, IAM across us-east-1a and us-east-1b — zero manual steps
-- Built end-to-end GitHub Actions CI/CD pipeline — terraform plan on PR, apply on merge, Docker build, ECR push, kubectl rollout in one automated workflow
-- Containerized Node.js application with Docker and pushed to ECR using IAM role authentication — no stored credentials
-- Migrated compute layer from EC2/ASG to EKS — Deployment, Service, HPA (2→6 pods at 70% CPU), Kubernetes Secret for secure DB credential injection
-- Implemented full CloudWatch observability — alarms, log streams, SNS alerting, custom metrics (RequestCount, Latency, ErrorCount) via AWS SDK
-- Reduced deployment time from 5-10 minutes (ASG refresh) to ~30 seconds (kubectl rollout) with zero downtime
+1. #### **AWS 3-Tier Production Project - Terraform · Docker · GitHub Actions · Kubernetes · CloudWatch**
+- Provisioned a complete 3‑tier AWS architecture using Terraform (VPC, subnets, ALB, EKS, RDS MySQL, IAM) across multiple Availability Zones.
+- Built a GitHub Actions CI/CD pipeline: terraform plan on PR, terraform apply on merge, Docker build, ECR push, and automated kubectl rollout.
+- Containerized a Node.js application with Docker and pushed images to ECR using IAM role authentication (no stored credentials).
+- Migrated compute from EC2/ASG to EKS using Kubernetes Deployment, Service, and Secret for secure DB credential injection.
+- Implemented CloudWatch monitoring with metrics, alarms, log streams, and SNS alerting.
 
-2. #### **End-to-End DevOps Pipeline — Jenkins · Docker · AWS**
-- Provisioned AWS infrastructure (VPC, EC2, ALB, RDS) via AWS CLI and containerized a Java application with Docker
-- Built Jenkins CI/CD pipeline with GitHub webhook triggers — every commit automatically builds, pushes Docker image to DockerHub, and deploys to EC2 with zero manual steps
+2. #### **Zero-Downtime Container Deployments — Docker · ECR · ECS Fargate · ALB · IAM · CloudWatch**
+- Containerized a Node.js app and stored it in a private ECR repository with scan‑on‑push enabled.
+- Deployed on ECS Fargate behind an ALB across two Availability Zones with security group chaining and target group health checks.
+- Validated zero‑downtime rolling updates and automatic rollback using the ECS deployment circuit breaker.
+- Configured CloudWatch logging and IAM execution roles for secure operations.
 
 3. #### **Secure Static Website — S3 · CloudFront · ACM · Route 53**
-- Hosted static website on private S3 bucket with CloudFront Origin Access Control (OAC) for secure content delivery
-- Configured ACM SSL certificate and Route 53 for custom domain with HTTPS — no direct S3 public access
+- Hosted a static website on a private S3 bucket served through CloudFront using Origin Access Control (no direct S3 public access).
+- Secured the distribution with an ACM SSL certificate.
+- Configured a custom domain using Route 53 with full HTTPS support.
   
 4. #### **Serverless Credential Rotation — Lambda · Secrets Manager · EventBridge**
-- Built serverless automation to rotate credentials in Secrets Manager using Lambda triggered by EventBridge on a schedule
-- Applied least-privilege IAM policies — zero standing access to secrets
+- Implemented scheduled credential rotation in Secrets Manager using a Python Lambda function triggered by EventBridge.
+- Eliminated manual rotation and reduced risk of stale credentials.
+- Applied least‑privilege IAM policies with no standing access to secrets.
 
 ---
 
 ## 👩‍💻 Professionl Experience
 
-### Configuration Managemnt Engineer (Cloud Infrastructure and DevOps) 
-#### 🏢 Excelsoft Technologies · Mysore, India · Jul 2021 – Feb 2023  
-- Provisioned and managed production AWS infrastructure (EC2, ALB, ASG, VPC, RDS, S3, Lambda, CloudWatch) using Terraform and AWS CLI.
-- Built and maintained Jenkins CI/CD pipelines for automated application deployments — reducing manual release effort significantly.
-- Implemented Ansible-based configuration management for automated deployments and system updates across environments.
-- Enforced IAM roles, policies, and security groups following least-privilege principles across all production resources.
-- Configured CloudWatch metrics, alarms, and log groups to improve infrastructure reliability and operational visibility.
-- Created AMIs and golden images to standardize environments and accelerate disaster recovery.
+### Configuration Management Engineer — AWS Cloud Infrastructure 
+#### 🏢 Excelsoft Technologies Pvt. Ltd · Mysore, India · Jul 2021 – Feb 2023  
+- Provisioned and managed production‑grade AWS environments (CAT, UAT, Production) using Terraform for EC2, VPC, subnets, ALB, ASG, RDS MySQL, S3, IAM, and CloudWatch.
+- Designed and deployed a 3‑tier architecture — ALB (presentation), EC2 in private subnets (application), RDS MySQL (database) — with full network isolation using security groups and NACLs.
+- Developed reusable Terraform modules for networking, compute, and database layers, fully parameterized and version‑controlled in GitHub.
+- Created and maintained pre‑configured AMIs to ensure consistent EC2 deployments and eliminate configuration drift across environments.
+- Automated EC2 provisioning using Bash‑based user data scripts for instance initialization and configuration.
+- Enforced least‑privilege IAM by managing roles, users, policies, and resource‑level permissions across EC2, RDS, and S3.
+- Configured CloudWatch metrics, alarms, and log groups to improve production visibility and enable early incident detection.
+- Collaborated with cross‑functional teams during production incidents to diagnose infrastructure failures, resolve environment misalignments, and implement preventive fixes.
 
-
-### Cloud Infrastructure Trainee (AWS and DevOps) 
-#### 💻 IIHT · Bangalore, India · Jan 2018 – June 2021
-- Trained junior engineers on AWS cloud fundamentals through structured hands-on labs covering EC2, S3, IAM, VPC, and RDS
-- Supported development and maintenance of an internal web application, gaining practical exposure to real-world deployment workflows
-- Gained foundational exposure to Terraform, Jenkins, Docker, and GitHub — forming the technical base for subsequent production roles.
-  
+### Cloud Trainee — AWS 
+#### 💻 Indian Institute of Hardware Technology Ltd (IIHT) · Bangalore, India · Jan 2018 – Jun 2021
+- Internal deployments — supported internal application deployments, environment setup, and cloud infrastructure tasks using core AWS services.
+- Real‑time project collaboration — worked closely with senior cloud architects and engineers on live project work, gaining hands-on experience in production workflows, troubleshooting, and cloud best practices.
+- Hands‑on AWS training — delivered practical training to multiple batches of junior engineers, with labs covering EC2, S3, IAM, VPC, RDS, and foundational cloud concepts.
+- GitHub version control — used GitHub for version control, maintaining training materials, lab guides, and internal project repositories.
+- Technical documentation — created onboarding guides, runbooks, and step‑by‑step lab documentation to accelerate team onboarding and improve operational efficiency.
 
 ---
 
 ## 🎓 Education
 
-#### JSS Academy of Technical Education (JSSATE) — Bangalore, India
-Bachelors of Engineering, Information Science & Engineering (ISE) · 2017
+#### Bachelors of Engineering (BE), Information Science & Engineering (ISE)
+JSS Academy of Technical Education (JSSATE) — Affiliated to VTU  · Bangalore, India  · 2017
+
